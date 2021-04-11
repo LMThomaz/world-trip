@@ -1,0 +1,20 @@
+:root {
+  --swiper-theme-color: #ffba08;
+}
+
+.swiper-pagination-bullet {
+  width: 16px;
+  height: 16px;
+}
+
+.swiper-pagination-bullet:not(.swiper-pagination-bullet-active) {
+  background: #999999;
+}
+
+.swiper-button-next {
+  right: 20px;
+}
+
+.swiper-button-prev {
+  left: 20px;
+}
