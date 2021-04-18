@@ -1,4 +1,13 @@
-import { Box, Flex, Grid, Image, SimpleGrid, Text } from "@chakra-ui/react";
+import { InfoOutlineIcon } from "@chakra-ui/icons";
+import {
+  Box,
+  Flex,
+  Grid,
+  Image,
+  SimpleGrid,
+  Text,
+  Tooltip,
+} from "@chakra-ui/react";
 import { useRouter } from "next/router";
 import { Header, CardCountry } from "../components";
 
@@ -71,7 +80,12 @@ export default function Continent() {
               <Text color="yellow.500" fontSize="3rem">
                 27
               </Text>
-              <Text mt="-4">cidades +100</Text>
+              <Text mt="-4">
+                cidades +100{" "}
+                <Tooltip label="mais de 100 cidades" aria-label="A tooltip">
+                  <InfoOutlineIcon color="gray.250" boxSize="4" />
+                </Tooltip>
+              </Text>
             </Flex>
           </Flex>
         </Grid>
