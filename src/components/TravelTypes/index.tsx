@@ -3,7 +3,7 @@ import { TravelTypesItem } from "./TravelTypesItem";
 
 export function TravelTypes() {
   return (
-    <Flex justify="space-between">
+    <Flex justify={{ base: "center", xl: "space-between" }} flexWrap="wrap">
       <TravelTypesItem text="vida noturna" image="/images/icons/cocktail.svg" />
       <TravelTypesItem text="praia" image="/images/icons/surf.svg" />
       <TravelTypesItem text="moderno" image="/images/icons/building.svg" />

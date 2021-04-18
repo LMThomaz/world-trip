@@ -2,39 +2,35 @@ import { Flex, Heading, Image, Text, VStack } from "@chakra-ui/react";
 
 export function Banner() {
   return (
-    <Flex position="relative" mb="8">
-      <Image
-        position="absolute"
-        zIndex="-1"
-        maxHeight="335px"
-        width="100%"
-        src="/images/background-banner.png"
-      />
-
+    <Flex mb="8" background="url(/images/background-banner.png)">
       <VStack
-        pt="20"
-        pb="16"
-        pl="36"
-        w="50%"
+        pt={{ base: "7", xl: "20" }}
+        pb={{ base: "7", xl: "36" }}
+        pl={{ base: "4", xl: "36" }}
+        pr={{ base: "4", xl: "0" }}
+        w={{ base: "100%", xl: "50%" }}
         color="gray.50"
         spacing="5"
         align="flex-start"
       >
-        <Heading fontWeight="medium" fontSize="2.25rem">
+        <Heading
+          fontWeight="medium"
+          fontSize={{ base: "1.25rem", xl: "2.25rem" }}
+        >
           5 Continentes, <br />
           infinitas possibilidades.
         </Heading>
-        <Text>
+        <Text color="gray.100" fontSize={{ base: "0.875rem", xl: "1rem" }}>
           Chegou a hora de tirar do papel a viagem que você sempre sonhou.
         </Text>
       </VStack>
 
       <Image
+        display={{ base: "none", xl: "block" }}
         transform="rotate(3deg)"
         position="absolute"
         right="36"
         top="16"
-        maxHeight="270px"
         src="/images/airplane.svg"
       />
     </Flex>

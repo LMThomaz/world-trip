@@ -7,12 +7,16 @@ export default function Home() {
     <>
       <Header />
       <Banner />
-      <Box py="20" px="36">
+      <Box py={{ base: "9", xl: "20" }} px={{ base: "12", xl: "36" }}>
         <TravelTypes />
       </Box>
       <Divider h="2px" w="90px" bg="gray.500" mx="auto" />
-      <Box py="14">
-        <Text align="center" fontSize="2.25rem" fontWeight="medium">
+      <Box py={{ base: "5", xl: "14" }}>
+        <Text
+          align="center"
+          fontSize={{ base: "1.25rem", xl: "2.25rem" }}
+          fontWeight="medium"
+        >
           Vamos nessa? <br />
           Então escolha seu continente
         </Text>

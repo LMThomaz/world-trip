@@ -27,7 +27,7 @@ export function Carousel() {
         <SwiperSlide>
           <CarouselItem
             href="/europe"
-            image="europe.pjg"
+            image="europe.jpg"
             title="Europa"
             text="O continente mais antigo."
           />
