@@ -27,17 +27,49 @@ export function Carousel() {
         <SwiperSlide>
           <CarouselItem
             href="/europe"
-            image="europe.png"
+            image="europe.pjg"
             title="Europa"
             text="O continente mais antigo."
           />
         </SwiperSlide>
         <SwiperSlide>
           <CarouselItem
-            href="/south-america"
+            href="/europe"
             image="south-america.jpg"
             title="America do sul"
             text="A região com paisagens naturais de tira o folego."
+          />
+        </SwiperSlide>
+        <SwiperSlide>
+          <CarouselItem
+            href="/europe"
+            image="north-america.jpg"
+            title="America do norte"
+            text="A região com paisagens naturais de tira o folego."
+          />
+        </SwiperSlide>
+        <SwiperSlide>
+          <CarouselItem
+            href="/europe"
+            image="asia.jpg"
+            title="Ásia"
+            text="Região com cultura única."
+          />
+        </SwiperSlide>
+        <SwiperSlide>
+          <CarouselItem
+            href="/europe"
+            image="africa.jpg"
+            title="África"
+            text="Região que ensina o ubuntu."
+          />
+        </SwiperSlide>
+        <SwiperSlide>
+          <CarouselItem
+            href="/europe"
+            image="oceania.jpg"
+            title="Oceania"
+            text="Região com animais únicos."
           />
         </SwiperSlide>
       </Swiper>

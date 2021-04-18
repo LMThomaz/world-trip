@@ -1,4 +1,4 @@
-import { Image, Flex, VStack, Heading, Text, Box } from "@chakra-ui/react";
+import { Flex, Heading, Image, Text, VStack } from "@chakra-ui/react";
 
 export function Banner() {
   return (
@@ -7,6 +7,7 @@ export function Banner() {
         position="absolute"
         zIndex="-1"
         maxHeight="335px"
+        width="100%"
         src="/images/background-banner.png"
       />
 

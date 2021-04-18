@@ -23,7 +23,7 @@ export function CarouselItem({ href, image, title, text }: CarouselItemProps) {
           />
           <Box
             background="gray.900"
-            opacity="0.35"
+            opacity="0.65"
             position="absolute"
             top="0"
             left="0"
