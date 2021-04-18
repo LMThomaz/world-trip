@@ -11,7 +11,11 @@ export function Header({ backButton = false }: HeaderProps) {
     <Flex position="relative" align="center" justify="center" py="7">
       {backButton && (
         <Link href="/">
-          <LinkChakra title="ir para homepage" position="absolute" left="36">
+          <LinkChakra
+            title="ir para homepage"
+            position="absolute"
+            left={{ base: "4", xl: "36" }}
+          >
             <ChevronLeftIcon width="8" height="8" />
           </LinkChakra>
         </Link>

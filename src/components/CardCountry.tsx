@@ -8,7 +8,7 @@ interface CardCountryProps {
 
 export function CardCountry({ image, city, country }: CardCountryProps) {
   return (
-    <Box background="white" w="64" borderRadius="8">
+    <Box background="white" w="64" borderRadius="8" margin="auto">
       <Image
         src={`/images/country/${image}.jpg`}
         h="44"
